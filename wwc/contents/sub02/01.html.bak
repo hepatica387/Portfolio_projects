@@ -1,0 +1,98 @@
+﻿	<!-- Start Introduce Area -->	
+	<section class="section6" >		
+        <div class="innerWrap  ">
+			<div class="left " data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
+				<div style="border-top:2px solid #0057a7;width:30px" data-aos="fade-up" data-aos-duration="500" >&nbsp;</div>
+				<p class=" title10 t200 " data-aos="fade-up" data-aos-duration="1000">피부암 발병의 주원인 중<br/>하나가 <span class="t500 text-primary">바로 자외선 입니다.</span> </p>
+				<div style="border-bottom:2px solid #0057a7;width:30px" data-aos="fade-up" data-aos-duration="1500">&nbsp;</div> 
+				
+				<p class="title2 t300" style="line-height:1.8;margin-top:50px" data-aos="fade-up" data-aos-duration="2000">
+					<span class="t500">자외선에 노출되면 피부 건강에 치명적</span>이며 <br/>햇빛은 피부암의 직접적인 
+					발병 원인이 되며, <br/>피부에 자외선이 누적되면 피부암 발생률이 증가합니다. <br/>
+					<span class="t500">세계보건기구 WHO에서는 햇빛을 1군 발암물질로 지정</span><br/> 하였습니다.<br/><br/>
+
+					피부암으로 진료받은 환자는 2012년 2만 586명이었으나<br/>
+					2016년에는 3만 5889명이 되면서 <span class="t500">5년 사이 <br/>약 1.7배의 증가세</span>를 보인 바 있습니다.<br/><br/>
+					[건강보험심사평가원 자료 중]
+				</p>
+			</div>
+			<div class="right mgt60" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"><img src="/images/sub02/cont02_0601.jpg" /></div>			
+		</div>
+    </section>
+
+
+	<section class="section1" >
+		<div class="innerWrap  ">
+			<div class="cols-100 title7 t200 bg-primary center t-inner t_raudis pdt15 pdb15">루펠은 첨단의 기술력과 함께 바른 <span class="t500">틴팅문화를 생각합니다.</span></div>
+			<div class="title1 mgt30 center cols-100"  data-aos="fade-up" data-aos-duration="500" style="border-left:1px solid #0057a7;border-right:1px solid #0057a7">루펠의 전 제품은 첨단 제조공법으로 생산되어 실제 사용환경에서 소비자가 직접 체감할 수 있는 <br/>최상의 품질경쟁력 있는 필름을 제공하겠습니다.</div>
+
+			<div class="left mgt60" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out"><img src="/images/sub02/cont02_0101.jpg" /></div>
+			<div class="right mgt60" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"><img src="/images/sub02/cont02_0102.jpg"/></div>			
+		</div>
+    </section>	
+	<section class="section2" >
+		<div class="innerWrap ">
+			<div class="mg-auto mgt30" data-aos="fade" data-aos-duration="3000"><img src="/images/sub02/cont02_0201.jpg" /></div>
+			<div class="cols-90">
+				<div class="text-primary title5 t500 " data-aos="fade" data-aos-duration="500">Heat Reflection 공법</div>
+				<div style="border-bottom: 1px solid #0057a7;margin:20px 0;width:30px"></div>
+				<div class="mg-auto title2 lheight18" data-aos="fade-up" data-aos-duration="500">
+					나노 세라믹 공법을 적용한 흡수형 필름은 순간 열차단 성능을 보이는 듯 하지만 시간이 흐르면서 필름이 흡수하여 간직한 열에너지가 재 방사 되어 차량 내부로 열이 전달되는데 반해,스퍼터링 박막코팅기술이 적용된 HR(Heat Reflection) 공법은 유리창으로 유입되는 태양열에너지를 실제 반사하고 열취득율을 최소화하여 높은 열차단 성능을 구현합니다.				
+				</div>	
+			</div>	
+			<div class="mg-auto mgt30" data-aos="fade" data-aos-duration="3000"><img src="/images/sub02/cont02_0202.jpg" /></div>
+			<div class="cols-90">
+				<div class="text-primary title5 t500 " data-aos="fade" data-aos-duration="500">LAYER / 루펠 필름구조</div>
+				<div style="border-bottom: 1px solid #0057a7;margin:20px 0;width:30px"></div>
+				<div class="mg-auto title2 lheight18" data-aos="fade-up" data-aos-duration="500">
+					PET기재층 위에 고기능성 화합물을 코팅하여 태양열을 선택적으로 차단하는 SC(차폐 계수) 및 SHGC(일사열취득계수) 효율을 높였습니다. Sputter 공법을 적용한 열반사형 루펠의 제품은 필름의 흡수열을 최소화 하기 때문에 실제 열차단 효과가 매우 우수합니다. 		
+				</div>				
+			</div>	
+			<div class="title08 mgt30 pdl5 text-primary" data-aos="fade-up" data-aos-duration="500" style="border-left:1px solid #0057a7">SC(Shading Coefficient)*<br/>차폐 계수</div>
+			<div class="title08 mgt30 pdl5 left cols-65 text-primary" data-aos="fade-up" data-aos-duration="500" style="border-left:1px solid #0057a7">SHGC(Solar Heat Gain Coefficient)*<br/>일사열취득계수</div>
+		</div>
+    </section>
+	<div style="border-bottom: 1px solid #0057a7;margin:60px auto -30px;width:1280px"></div>		
+	<section class="section3" >
+		<div class="innerWrap ">
+			<div class="sc3_title center cols-100">
+				<div class="title title10 t200" data-aos="fade-up" data-aos-duration="1000" style="letter-spacing:-3px">｜<span class="t500">루펠 건축용 필름</span> (RUPELL ARCHITECTURAL TINTING FILM)｜</div>				
+			</div>
+			<div class="mgt60" data-aos="fade-right" data-aos-duration="1500"><img src="/images/sub02/cont02_0301.jpg" /></div>			
+			<div class="mgt60"data-aos="fade-up" data-aos-duration="1500"><img src="/images/sub02/cont02_0302.jpg" /></div>			
+			<div class="mgt60" data-aos="fade-left" data-aos-duration="1500"><img src="/images/sub02/cont02_0303.jpg" /></div>				
+			
+			<div class="cols-95 mgt50 ">
+				<div class="text-primary pdl10"> ARCHITECTURAL TINTING FILM LINE UP</div>
+				<div class="mg-auto mgt5" data-aos="flip-right" data-aos-duration="1000"><img src="/images/sub02/cont02_0304.jpg" /></div>
+			</div>
+			<div class="cols-95 mg-auto mgt10 title2 lheight18" data-aos="fade-up" data-aos-duration="500">
+					: 스마트필름 CS950 시리즈는 가시광선투과율이 환경에 따라 1/2범위 이하 값 까지 변화		
+			</div>		
+			
+		</div>	
+	</section>
+	<div style="border-bottom: 1px solid #0057a7;margin:60px auto -30px ;width:1280px"></div>	
+	<section class="section4" >
+		<div class="innerWrap ">
+			<div class="sc4_title center cols-100">
+				<div class="title title10 t200" data-aos="fade-up" data-aos-duration="1000" style="letter-spacing:-3px">｜<span class="t500">시인성</span> (Visible Light Transmittance (IN))｜</div>				
+			</div>
+			<div class="mg-auto mgt30" data-aos="flip-right" data-aos-duration="1000"><img src="/images/sub02/cont02_0401.jpg" /></div>
+			<div class="cols-90 mg-auto mgt10 pdl10 title2 lheight18" data-aos="fade-up" data-aos-duration="500">
+				<div class="t500 title1">>>선명한 시인성을 확보</div>
+				<div>루펠 윈도우 필름은 제품은 광학적 선명도를 통한 최고의 시인성을 사용자에게 제공합니다. 탈변색이 되지 않는 반영구적 윈도우필름을 제공하여 사용자에게 최고의 청량감을 제공합니다. <span class="t500 text-primary"> < *채광 및 방향, 각도 등 실제 상황에 따라 달리 보일 수 있습니다></span></div>
+			</div>				
+		</div>	
+	</section>
+	<div style="border-bottom: 1px solid #0057a7;margin:-30px auto ;width:1280px"></div>	
+	<section class="section5" >
+		<div class="innerWrap ">
+			<div class="mg-auto" data-aos="flip-left" data-aos-duration="1000"><img src="/images/sub02/cont02_0501.jpg" /></div>				
+		</div>	
+	</section>
+
+	
+	
+	
+	

@@ -1,0 +1,34 @@
+﻿<!--#include virtual="/includefiles/global/global_head.asp"-->
+<!--#include virtual="/includefiles/global/_array.asp"-->
+<!--#include virtual="/includefiles/func/function.auth.asp"-->
+<!--#include virtual="/LIB/injection_chk.asp"-->
+<!--#include virtual="/includefiles/global/navi_js.asp"-->
+<link rel="stylesheet" href="/includefiles/css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="/includefiles/css/bootstrap-theme.css" type="text/css" />
+<link rel="stylesheet" href="/board/includefiles/css/board.css" type="text/css" />
+<script class="daum_roughmap_loader_script" src="//dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
+<div class="wrapper">
+	<!-- Start Nav Contents Area -->
+	<!--#include virtual="/includefiles/global/top_navi.asp"-->
+	<!--#includefile virtual="/board/includefiles/css/board_css.asp"-->
+    <!-- End Nav Contents Area -->	
+	<aside class="subVisual" >		
+		<div class="visual-img bottom_shadow" >			
+			<div class="visual-item">	
+				<div style="top:86px;left:6%;width:40%;position:absolute;width:598px;height:753px;background: url(/images/<%=st%>/sub_visual_sm_bg.png) no-repeat;opacity:0.8!important;filter:alpha(opacity=80);" /></div>
+				<div style="background: url(/images/<%=st%>/sub_visual.jpg) no-repeat center;background-size:cover"  class="vs-img animate"></div>				
+				<div class="visual-txt">					
+					<div class="visual-inner-txt ">												
+						<span data-aos="fade-left" data-aos-duration="800"><%=subvisual_text%>></span>
+						<p class="fontM"  data-aos="fade-left" data-aos-duration="1000">HIGH END WINDOW TINTING TILM RUPELL</p>
+					</div>					
+				</div>				
+			</div>
+			
+		</div>		
+	</aside>
+	<div class="section1">
+		<div id="body-cont" class="body-cont innerWrap" data-aos="fade" data-aos-duration="800" >	
+	<!--main body-->
+	
+	

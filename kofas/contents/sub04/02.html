@@ -1,0 +1,105 @@
+<!-- 온라인 문의 -->
+<section class="section0 mgt30 mgb60">
+	<div class="innerWrap">
+		<div class="section0-title center mgt30 mgb60">
+      <h1 class="black">온라인 문의</h1>
+    </div>
+		<div class="section0-cont1 center mgt30 mgb60">
+      <h3 class="black">코파스는 항상 고객과 함께 합니다.</h3>
+      <p class="pre-line mgt20 black">궁금하신 사항을 작성하여 보내주세요.
+        코파스에서 빠르게 연락드리도록 하겠습니다.
+      </p>
+    </div>
+    <div class="cols-100">
+      <form action="">
+        <table class="cols-100 online-tb">
+          <tr>
+            <th>기업명</th>
+            <td><input class="online-input" type="text" placeholder="기업명"></td>
+          </tr>
+          <tr>
+            <th>담당자 이름</th>
+            <td><input class="online-input" type="text" placeholder="담당자 이름"></td>
+          </tr>
+          <tr>
+            <th>이메일</th>
+            <td>
+              <div class="flex">
+								<input type="text" name="email1" class="form-control mgr10" placeholder="이메일" style="width:30%" value=""> @
+								<input type="text" name="email3" class="form-control mgl10" placeholder="example.com" style="width:30%;display:none;" value="">
+								<select class="form-control mgl10" name="email2" style="width:30%">
+									<option value=""> - 사이트 선택 -</option>
+									<option value="직접입력">직접입력</option>
+									<option value="naver.com">naver.com</option>
+									<option value="gmail.com">gmail.com</option>
+									<option value="daum.net">daum.net</option>
+									<option value="nate.com">nate.com</option>
+								</select>
+							</div>
+            </td>
+          </tr>
+          <tr>
+            <th>연락처</th>
+            <td>
+              <div class="flex">
+								<input type="text" name="cell2" class="form-control mgl10" placeholder="직접입력" style="width:80px;display:none;" value="">
+								<select name="hp1" class="oline-cell-input" style="width:80px;">
+									<option value="" selected="">선택</option>
+									<option value="">직접입력</option>
+									<option value="010">010</option>
+									<option value="011">011</option>
+									<option value="016">016</option>
+									<option value="017">017</option>
+									<option value="018">018</option>
+									<option value="019">019</option>
+									<option value="070">070</option>
+									<option value="02">02</option>
+									<option value="031">031</option>
+									<option value="032">032</option>
+									<option value="033">033</option>
+									<option value="041">041</option>
+									<option value="042">042</option>
+									<option value="043">043</option>
+									<option value="051">051</option>
+									<option value="052">052</option>
+									<option value="053">053</option>
+									<option value="054">054</option>
+									<option value="055">055</option>
+									<option value="061">061</option>
+									<option value="062">062</option>
+									<option value="063">063</option>
+									<option value="064">064</option>
+								</select>
+								<input maxlength="4" name="hp2" value="" class="oline-cell-input mgl10" style="width:100px;" placeholder="1234">
+								<input maxlength="4" name="hp3" value="" class="oline-cell-input mgl10" style="width:100px;" placeholder="5678">
+							</div>
+            </td>
+          </tr>
+          <tr>
+            <th>제목</th>
+            <td><input class="online-input" type="text" placeholder="제목"></td>
+          </tr>
+          <tr>
+            <th>내용</th>
+            <td><textarea name="name" rows="8" cols="80" class="cols-100 online-txt"></textarea></td>
+          </tr>
+        </table>
+        <div class="cols-100 center mgt30">
+          <button class="online-canc-btn">취소</button>
+          <button class="online-succ-btn" type="submit">등록</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<script>
+	$(document).ready(function(){
+		$('select[name=email2]').on('click',function(){
+      if($('select[name=email2]').val() == "직접입력"){
+        $('input[name=email3]').show();
+      }else{
+        $('input[name=email3]').hide();
+      }
+    });
+	});
+</script>
