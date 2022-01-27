@@ -1,0 +1,95 @@
+/* #wapper{
+  margin: 103px auto auto auto;
+} */
+.fff{
+  color: #fff;
+}
+.black{
+  color: #000;
+}
+.red, .span-r{
+  color: #dc3545;
+}
+.orange, .span-o{
+  color: #ffc107;
+}
+.green, .span-g{
+  color: #218838;
+}
+.bg-gray{
+  background: #f8f8f8;
+}
+.bd-gray{
+  border: 1px solid rgba(0,0,0,.1);
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center;
+}
+.t-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.hide{
+  display: none;
+}
+.wb-brk-all{
+  word-break: break-all;
+}
+
+/* 게시판 */
+table th, table td{
+  text-align: center;
+}
+table tr > td:nth-child(2){
+  text-align: left;
+}
+
+/*  */
+.dt-cont-line{
+  margin: 2rem 0;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.comt-form{
+  padding: .5rem 0;
+  color: #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.spedit{
+  cursor: pointer;
+}
+.cik-comt{
+  color: #8b8b92;
+  cursor: pointer;
+}
+.edit_comt {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+#CikComtBtn{
+  margin:2rem 0;
+  text-align: right;
+}
+
+/* Contents */
+.section01 {
+  width:100%;
+}
+
+/* footer */
+#Footer{
+  background: #f2f2f2;
+}
+#Footer, #Footer > .fp-tableCell{
+  height: 120px !important;
+}
+.footer2{
+  padding: 3rem 0;
+}

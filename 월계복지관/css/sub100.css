@@ -1,0 +1,59 @@
+
+/* section1 */
+.section1 {width:100%;float:left;}
+.section1-title {margin-top: 60px;width: 100%;}
+.section1-title > h2 {color: #000;}
+.section1-stitle {margin:20px auto 30px auto;position: relative;}
+.section1-cont1 {width: 100%;position: relative;}
+.section1-cont1 > img {width:100%;}
+
+/* login */
+#sub_content {width:100%;}
+.cont01 {width: 1200px;max-width: 1280px;height: 100%;margin: 0 auto;}
+.login-cont1-txt > .form-control {height: 60px;}
+
+.login-cont1 {margin: 30px 0 60px 0;width:60%;position: relative;float: left;}
+.login-cont1-form {margin-bottom: 30px;display: flex;flex-wrap: wrap;justify-content: center;}
+.login-cont1-txt {width:80%;}
+.login-cont1-btn {width:20%;}
+.login-cont1-btn > input {padding: 52px 30px;margin: 0 10px;}
+
+/* login - id / pw 찾기 */
+.login-cont2 {margin: 30px 0 60px 0;width:40%;float: left;position: relative;}
+.cont2-1 {width: 50%;float: left;text-align: center;border: 1px solid #ddd;cursor: pointer;}
+.cont2-1 > div:first-child {padding: 10px 10px 0;font-size: 3em;}
+.cont2-1 > div:nth-child(2) {padding: 10px;}
+.cont2-1:hover {background: #525252;}
+.cont2-1:hover > div:first-child > i {color: #fff;}
+.cont2-1:hover > div:nth-child(2) > a {color: #fff;}
+
+/* 회원가입 */
+.sub100-tb-online {width: 100%;display: flex;flex-wrap: wrap;}
+
+@media screen and (max-width:1200px) {
+  .cont01 {padding: 0 15px;width: 100%;}
+
+}
+@media screen and (max-width:999px) {
+  .login-cont1, .login-cont2 {width:100%;}
+}
+@media screen and (max-width:700px) {
+  /* login */
+  .login-cont1, .login-cont2 {margin: 30px auto;}
+  .login-cont1-form {display: block;flex-wrap: initial;justify-content: unset;}
+  .login-cont1-txt, .login-cont1-btn {width:100%;}
+  .login-cont1-btn > input {padding: 20px 0;margin: 10px 0;width: 100%;height: auto;}
+
+  /* 회원가입 */
+  .sub100-tb > tbody > tr:first-child > td > input,
+  .sub100-tb > tbody > tr:nth-child(3) > td > input,
+  .sub100-tb > tbody > tr:nth-child(4) > td > input  {width:100% !important;}
+  .sub100-tb > tbody > tr:nth-child(5) > td > div > input:nth-child(2) {width:45% !important;display: block !important;}
+  .sub100-tb > tbody > tr:nth-child(5) > td > div > select {display: none;}
+  .sucbtn {width:100%;}
+  .sucbtn > input {width:100%;}
+}
+
+@media screen and (max-width:350px) {
+  .cont2-1 {margin: 15px auto;display: block;}
+}

@@ -1,0 +1,91 @@
+<div class="section1">
+  <div class="container">
+    <div class="section1-tab">
+      <div class="section1-tab-item tab-bg1" id="tab1">
+        <img src="/images/sub04/sub04-icon1.png" alt="">
+        <div class="section1-tab-item-txt">공공시설</div>
+      </div>
+      <div class="section1-tab-item tab-bg2" id="tab2">
+        <img src="/images/sub04/sub04-icon2.png" alt="">
+        <div class="section1-tab-item-txt">상업시설</div>
+      </div>
+      <div class="section1-tab-item tab-bg3" id="tab3">
+        <img src="/images/sub04/sub04-icon3.png" alt="">
+        <div class="section1-tab-item-txt">주거시설</div>
+      </div>
+    </div>
+    <div class="section1-tab-cont">
+      <div class="tab tab1 tab-open">
+        <div class="tab-title">
+          <div class="tab-topline"></div>
+          공공시설의 <strong>디능 및 효율 극대화</strong>를 위한<br>
+          틴터스 필름의 다양한 CASE를 소개합니다.
+        </div>
+        <div class="tab-stitle">
+          - PUBLIC FACILITIES -
+        </div>
+        <div class="tab-cont">
+          <div class="tab-cont-img1">
+            <div class="tab-img1"><img src="/images/sub04/sub04-tab1-img1.png" alt=""></div>
+            <div class="tab-img2"><img src="/images/sub04/sub04-tab1-img2.png" alt=""></div>
+          </div>
+          <div class="tab-cont-img2">
+            <img src="/images/sub04/sub04-tab1-img3.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="tab tab2">
+        <div class="tab-title">
+          <div class="tab-topline"></div>
+          상업시설의 <strong>기능성 강화 및 이용객 편리를 극대화</strong>한<br>
+          틴터스 필름의 다양한 CASE를 소개합니다.
+        </div>
+        <div class="tab-stitle">
+          - COMMERCIAL FACILITIES -
+        </div>
+        <div class="tab-cont">
+          <div class="tab-cont-img1">
+            <div class="tab-img1"><img src="/images/sub04/sub04-tab2-img1.png" alt=""></div>
+            <div class="tab-img2"><img src="/images/sub04/sub04-tab2-img2.png" alt=""></div>
+          </div>
+          <div class="tab-cont-img2">
+            <img src="/images/sub04/sub04-tab2-img3.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="tab tab3">
+        <div class="tab-title">
+          <div class="tab-topline"></div>
+          주거시설의 <strong>심미적, 친환경, 주거안정, 고효율을 극대화</strong>한<br>
+          틴터스 필름의 다양한 CASE를 소개합니다.
+        </div>
+        <div class="tab-stitle">
+          - RESIDENTALL FACILITIES -
+        </div>
+        <div class="tab-cont">
+          <div class="tab-cont-img1">
+            <div class="tab-img1"><img src="/images/sub04/sub04-tab3-img1.png" alt=""></div>
+            <div class="tab-img2"><img src="/images/sub04/sub04-tab3-img2.png" alt=""></div>
+          </div>
+          <div class="tab-cont-img2">
+            <img src="/images/sub04/sub04-tab3-img3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function(){
+    $('.section1-tab-item').on('click',function(){
+      var tab = $(this).attr('id');
+
+      if(!$("."+tab).hasClass('tab-open')){
+        $(".tab-open").removeClass('tab-open');
+        $("."+tab).addClass('tab-open');
+      }else{
+        $("."+tab).removeClass('tab-open');
+      }
+    });
+  });
+</script>

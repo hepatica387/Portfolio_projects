@@ -1,0 +1,12 @@
+<?php
+	$host = "localhost";
+	$user = "root";
+	$password = "destroy9413";
+
+	$dbconn = mysqli_connect($host,$user,$password);
+	mysqli_select_db($dbconn);
+
+	echo "성공";
+?>
+<html>
+</html>
